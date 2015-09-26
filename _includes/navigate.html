@@ -1,0 +1,19 @@
+<div id='cssmenu'>
+<ul>
+	{% for item in site.data.navigation  %}
+  
+  	{% if item.dropdown == nil %}
+	<li><a href= "{{ item.url }}">{{ item.title }}</a></li>
+	{% else %}
+	<li class='has-sub'><a>{{ item.title }}</a>
+		{% for subitem in item.dropdown %}
+		<ul>
+			<li><a href="{{ subitem.url }}" target="_blank">{{ subitem.title }}</a></li>
+		</ul>
+		{% endfor %}
+	</li>
+	{% endif %}
+	{% endfor %}
+</ul>
+</div>
+

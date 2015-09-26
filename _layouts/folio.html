@@ -1,0 +1,32 @@
+{% include head.html %}
+<body>
+
+<div class="wrapper">
+{% include navigate.html %}
+
+<div class="supercenter">
+	<div class="parent">
+		<div class="child-left">
+			<h1>{{ page.splash.name }}</h1>
+			<p><a href= {{ page.splash.subsplashurl }} target="_blank">{{ page.splash.subsplash  }}</a></p>
+		</div>
+		<div class="child-right">
+			{{ content }}
+		</div>
+	</div>
+	<!-- TODO: add links to network, etc. in a span here: fb, in, git, mail, resume, -->
+	<nav id="linkbar">
+	</nav>
+	<br>
+</div>
+
+<div class ="push"></div>
+</div>
+
+<div class="footer">
+	<p>Jekyll theme github — <a href="https:/github.com/imbuedHope/portfolio-theme" target="_blank">github.com/imbuedHope/portfolio-theme</a><br>Background Image by Nelly Volkovich — <a href="http://www.unsplash.com/nelly" target="_blank">www.unsplash.com/nelly</a><br>Entypo pictograms by Daniel Bruce — <a href="http://www.entypo.com" target="_blank">www.entypo.com</a></p>
+</div>
+
+</body>
+</html>
+

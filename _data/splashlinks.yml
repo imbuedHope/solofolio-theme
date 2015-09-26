@@ -1,0 +1,24 @@
+- title: "Facebook"
+  link: "https://www.facebook.com/"
+  image: assets/facebook.svg
+  hover-image: assets/facebook_hover.svg
+
+- title: "LinkedIn"
+  link: "https://www.linkedin.com/"
+  image: assets/linkedin.svg
+  hover-image: assets/linkedin_hover.svg
+
+- title: "GitHub"
+  link: "https://www.github.com/"
+  image: assets/github.svg
+  hover-image: assets/github_hover.svg
+
+- title: "E-Mail"
+  link: "mailto:example@donotemailme.com"
+  image: assets/email.svg
+  hover-image: assets/email_hover.svg
+
+- title: "Resume"
+  link: "https://www.dropbox.com"
+  image: assets/resume.svg
+  hover-image: assets/resume_hover.svg

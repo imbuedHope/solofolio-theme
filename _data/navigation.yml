@@ -1,0 +1,13 @@
+# To remove the bar entirely look at _layout/folio.html
+
+- title: Home
+  url: #
+
+# Menus with a dropdown don't link to anything
+- title: Menu
+  dropdown:
+  - title: Item
+    url: http://www.theuselessweb.com
+
+- title: Another
+  url: http://www.random.org

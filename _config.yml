@@ -1,0 +1,24 @@
+# Site Settings
+
+# Website title (appears on tabs)
+title: "Solo-Folio Theme"
+
+# This URL is the main adresse. Don't include a slash at the end.
+#
+url: ""
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash.
+#
+# Example: <img src="{{ site.urlimg }}/img.png">
+#
+urlimg: ""
+
+#used in /includes/header for html settings
+language: "en"
+
+markdown: kramdown
+exclude:
+    - LICENSE
+    - README.md
+
